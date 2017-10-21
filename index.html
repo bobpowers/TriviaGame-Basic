@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Name That Superhero</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+	<div class="mainContent">
+		<div class="myHeader">
+			<h1 class="myHeader">NAME THAT SUPER HERO</h1>
+		</div>
+		<div>
+			<h2>Time Remaining:</h2>
+			<h3 id="counter">40</h3>
+		</div>
+		<!-- <br> -->
+		<div class="quizWindow">
+			<!-- START BUTTON WINDOW -->
+			<div id="startWindow">
+				<div id="startGame">Restart Game</div>
+			</div>
+			<!-- QUESTION WINDOW -->
+			<div class="questions" id="hideQuestions">				
+				<p class="questionText">#1) Which emotion is embodied by the Green Lantern corps?</p>
+				<form action="">
+					<input type="radio" name="Question1" value="false">Greed
+					<input type="radio" name="Question1" value="true"> Willpower
+					<input type="radio" name="Question1" value="false"> Life
+					<input type="radio" name="Question1" value="false"> Hope
+				</form>
+				<br>
+				<p class="questionText">#2) Who was the first actor to play the role of Batman?</p>
+				<form action="">
+					<input type="radio" name="Question2" value="false">George Clooney
+					<input type="radio" name="Question2" value="false">Adam West
+					<input type="radio" name="Question2" value="true">Lewis Wilson
+					<input type="radio" name="Question2" value="false">Val Kilmer
+				</form>
+				<br>
+				<p class="questionText">#3) What was Hulk's color when he first appeared?</p>
+				<form action="">
+					<input type="radio" name="Question3" value="false">Red
+					<input type="radio" name="Question3" value="true">Grey
+					<input type="radio" name="Question3" value="false">Blue
+					<input type="radio" name="Question3" value="false">Green
+				</form>
+				<br>
+				<p class="questionText">#4) Which of these superheroes was introduced in the 21st century?</p>
+				<form action="">
+					<input type="radio" name="Question4" value="false">Magneto
+					<input type="radio" name="Question4" value="false">Ant-Man
+					<input type="radio" name="Question4" value="true">Fantomex
+					<input type="radio" name="Question4" value="false">Deadpool
+				</form>
+				<br>
+				<p class="questionText">#5) What color was Iron Man's first armor?</p>
+				<form action="">
+					<input type="radio" name="Question5" value="false">Red
+					<input type="radio" name="Question5" value="false">Black
+					<input type="radio" name="Question5" value="true">Grey
+					<input type="radio" name="Question5" value="false">Gold
+				</form>
+				<br>
+				<p class="questionText">#6) Which year marked Wonder Woman's first appearance?</p>
+				<form action="">
+					<input type="radio" name="Question6" value="true">1941
+					<input type="radio" name="Question6" value="false">1943
+					<input type="radio" name="Question6" value="false">1945
+					<input type="radio" name="Question6" value="false">1940
+				</form>
+				<br>
+				<p class="questionText">#7) Who was Robin's first incarnation?</p>
+				<form action="">
+					<input type="radio" name="Question7" value="false">Stephanie Brown
+					<input type="radio" name="Question7" value="false">Jason Todd
+					<input type="radio" name="Question7" value="false">Damian Wayne
+					<input type="radio" name="Question7" value="true">Dick Grayson
+				</form>
+				<br>
+				<p class="questionText">#8) What is Spider-Man's real name?</p>
+				<form action="">
+					<input type="radio" name="Question8" value="true">Peter Parker
+					<input type="radio" name="Question8" value="false">John Parker
+					<input type="radio" name="Question8" value="false">Tony Parker
+					<input type="radio" name="Question8" value="false">Larry Parker
+				</form>
+				<br>
+				<p class="questionText">#9) Who is the current CEO of Marvel Entertainment</p>
+				<form action="">
+					<input type="radio" name="Question9" value="false">Martin Goodman
+					<input type="radio" name="Question9" value="false">Stan Lee
+					<input type="radio" name="Question9" value="true">Isaac Perlmutter
+					<input type="radio" name="Question9" value="false">Dan Buckley
+				</form>
+				<br>
+				<p class="questionText">#10) Thor is the god of ____?</p>
+				<form action="">
+					<input type="radio" name="Question0" value="false">Wisdom
+					<input type="radio" name="Question0" value="false">Mischief
+					<input type="radio" name="Question0" value="true">Thunder
+					<input type="radio" name="Question0" value="false">Light
+				</form>
+				<br>
+				<div class="align">
+					<div id="finished"> 
+						Check Your Results!
+					</div>
+				</div>
+			</div>
+			<div class="results">
+				<div class= "showResults">
+					<p id="rightAnswers"></p>
+					<p id="wrongAnswers"></p>
+					<div id="startOver">Try Again?</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

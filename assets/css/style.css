@@ -1,0 +1,139 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg, red, yellow, transparent);
+	/*z-index: -2*/
+	/*height: 100vh;*/
+}
+
+/*.theBackground {
+	width: 100%;
+  	height: 100%;
+ 	background: url(../images/superheroBackground.png) center center no-repeat;
+ 	opacity: 0.5;
+  	background-size: cover;
+  	z-index: -1;
+  	position: absolute;
+}*/
+
+h2 {
+	font-size: 28px;
+	text-align: center;
+	margin-top: 24px;
+}
+
+h3 {
+	font-size: 42px;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+
+.myHeader {
+	font-size: 72px;
+	font-family: 'Permanent Marker', cursive;
+	border-style: solid;
+	border-bottom: 3px;
+	border-color: white;
+	text-align: center;
+	background: url(../images/superheroBackground.png) center center no-repeat;
+	padding: 45px 0px;
+	color: white;
+}
+
+.quizWindow {
+	width: 800px;
+	height: 650px;
+	margin: 30px auto 0px auto;
+	overflow-y: scroll;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #006FFF;
+	border-radius: 7%;
+	background-color: #006FFF;
+}
+
+.questions {
+	padding: 26px;
+	font-size: 28px;
+
+}
+
+.questionText {
+	padding-top: 38px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+#hideQuestions {
+}
+
+#startWindow {
+	text-align: center;
+}
+
+#startGame {
+	cursor: pointer;
+	height: 200px
+	width 400px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	font-size: 70px;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	padding: 5px 15px;
+	margin-top: 250px;
+}
+
+.align {
+	text-align: center;
+}
+
+#finished {
+	cursor: pointer;
+	height: 200px
+	width 400px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	font-size: 32px;
+	padding: 3px 7px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	/*text-align: center;*/
+}
+
+.results {
+	text-align: center;
+}
+
+.showResults p {
+	margin-top: 42px;
+	font-size: 42px;
+	padding-top: 38px;
+	padding-bottom: 12px;
+
+}
+
+#startOver {
+	cursor: pointer;
+	height: 200px
+	width 400px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	font-size: 70px;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	padding: 5px 15px;
+	margin-top: 150px;
+}
+
+
